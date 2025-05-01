@@ -1,1 +1,76 @@
-/*# sourceMappingURL=main.css.map */
+.hero {
+  background-image: url(/img/backgraund.jpg);
+  width: 1248px;
+  height: 600px;
+  margin-left: 50px;
+}
+.hero_logo {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-size: 33px;
+  font-weight: 500;
+  padding-top: 226px;
+  padding-left: 35px;
+  line-height: 43px;
+  letter-spacing: 0%;
+}
+.hero_buy {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 26px;
+  padding-left: 35px;
+}
+.hero_button {
+  background-color: rgba(250, 235, 215, 0);
+  border-radius: 6px;
+  border: 2px solid white;
+  width: 193px;
+  height: 53px;
+  margin-left: 35px;
+}
+.hero_titlebutton {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-family: 700;
+  font-size: 15px;
+}
+.hero_fon_img {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo {
+  font-family: "Allerta Stencil", sans-serif;
+  width: 158px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 35px;
+  padding-left: 56px;
+}
+.header_conteuner {
+  display: flex;
+  list-style: none;
+  border: 1px;
+  height: 27px;
+  gap: 50px;
+}
+.header_item {
+  position: relative;
+}
+.header_buttons {
+  display: flex;
+  list-style: none;
+  gap: 39px;
+}
+.header_span {
+  display: block;
+  width: 1px;
+  height: 17px;
+  background-color: black;
+}/*# sourceMappingURL=main.css.map */

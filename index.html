@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/sass/main.css">
 </head>
 <body>
     <header class="header">
         <img class="header_logo" src="./img/SHOPPE.svg" alt="logo">
         <nav class="header_navigation">
-            <ul>
-                <li>Shop</li>
-                <li>Blog</li>
-                <li>Our Story</li>
-                <li><img src="./img/Icon color (1).svg" alt=""></li>
-                <li><img src="./img/shopping-cart 1.svg" alt=""></li>
-                <li><img src="./img/Icon color.svg" alt=""></li>
+            <ul class="header_conteuner">
+                <li class="header_item">Shop</li>
+                <li class="header_item">Blog</li>
+                <li class="header_item">Our Story</li>
+                <li class="header_item"><span class="header_span"></span></li>
+                 <li class="header_item"><img src="./img/Icon color (1).svg" alt=""></li>
+                <li class="header_item"><img src="./img/shopping-cart 1.svg" alt=""></li>
+                <li class="header_item"> <img src="./img/Icon color.svg" alt=""></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main">
         <section class="hero">
-            <img class="hero_backgraund" src="./img/backgraund.jpg" alt="">
             <h1 class="hero_logo">Gold big hoops </h1>
             <p class="hero_buy">$ 68,00</p>
-            <button class="hero_button">View Product</button>
-            <img src="./img/Slider.svg" alt="">
+            <button class="hero_button"> <span class="hero_titlebutton">View Product</span></button>
+            <div class="hero_fon_img">
+                <img class="hero_fon_img" src="./img/Slider.svg" alt="">
+            </div>
         </section>
         <section>
             <h2>Shop The Latest</h1>
