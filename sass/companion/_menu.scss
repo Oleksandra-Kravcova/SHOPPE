@@ -1,4 +1,8 @@
 .menu{
+    &_divlogo{
+        display: flex;
+        justify-content: space-between;
+    }
     &_logo{
         font-family: "DM Sans", sans-serif;
         font-size: 33px;
@@ -12,6 +16,30 @@
         color: #A18A68;
         font-size: 20px;
         font-weight: 500;
-        margin-left: 1200px;
+        margin-right: 56px;
+        margin-top: 46px;
+    }
+    &_title{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    &_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+    &_item{
+        width: calc((100% - 100px) / 3);
+        width: 30%;
+        margin-top: 29px;
+    }
+    &_buy{
+        font-family: "DM Sans", sans-serif;
+        color: #A18A68;
+        font-size: 20px;
+        font-weight: 500;
     }
 }

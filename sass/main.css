@@ -77,6 +77,10 @@
   background-color: black;
 }
 
+.menu_divlogo {
+  display: flex;
+  justify-content: space-between;
+}
 .menu_logo {
   font-family: "DM Sans", sans-serif;
   font-size: 33px;
@@ -90,5 +94,29 @@
   color: #A18A68;
   font-size: 20px;
   font-weight: 500;
-  margin-left: 1200px;
+  margin-right: 56px;
+  margin-top: 46px;
+}
+.menu_title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.menu_item {
+  width: calc((100% - 100px) / 3);
+  width: 30%;
+  margin-top: 29px;
+}
+.menu_buy {
+  font-family: "DM Sans", sans-serif;
+  color: #A18A68;
+  font-size: 20px;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
