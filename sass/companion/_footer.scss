@@ -1,0 +1,18 @@
+.footer{
+   &_conteiner{
+         font-family: "DM Sans", sans-serif;
+         font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        list-style: none;
+        gap: 41px;
+        margin-left: 16px;
+    }
+    &_component{
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 56px;
+        margin-top: 57px;
+    }
+}
