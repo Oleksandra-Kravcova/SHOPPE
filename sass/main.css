@@ -65,6 +65,9 @@
 .header_item {
   position: relative;
 }
+.header_item:hover {
+  color: #A18A68;
+}
 .header_buttons {
   display: flex;
   list-style: none;
@@ -129,11 +132,35 @@
   list-style: none;
   gap: 41px;
   margin-left: 16px;
+  margin-top: 55px;
 }
 .footer_component {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-left: 56px;
-  margin-top: 57px;
+  margin-top: 63px;
+}
+.footer_email {
+  font-family: "DM Sans", sans-serif;
+  margin-left: 948px;
+  margin-top: -116px;
+}
+.footer_icon {
+  margin-left: 1048px;
+  margin-top: 43px;
+}
+.footer_div {
+  margin-top: 256px;
+  border: 1px solid #D8D8D8;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.footer_line {
+  border: 1px solid black;
+  margin-left: 948px;
+  margin-right: 56px;
+}
+.footer_img {
+  margin-left: 50px;
 }/*# sourceMappingURL=main.css.map */

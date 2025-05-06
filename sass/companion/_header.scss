@@ -20,6 +20,9 @@
     &_item{
         position: relative;
     }
+    &_item:hover{
+        color: #A18A68;
+    }
     &_buttons{
         display: flex;
         list-style: none;
