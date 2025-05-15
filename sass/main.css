@@ -23,6 +23,7 @@
   padding-left: 35px;
 }
 .hero_button {
+  cursor: pointer;
   background-color: rgba(250, 235, 215, 0);
   border-radius: 6px;
   border: 2px solid white;
@@ -105,7 +106,7 @@
     width: 25px;
     height: 2px;
     display: block;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     right: 0;
   }
   .header__toggle span::before {
@@ -114,10 +115,10 @@
   .header__toggle span::after {
     top: 8px;
   }
-  .header__navigation {
+  .header_navigation {
     display: none;
   }
-  .header__menu:checked ~ .header__navigation {
+  .header__menu:checked ~ .header_navigation {
     display: block;
   }
   .header__menu:checked ~ .header__toggle span {
@@ -136,7 +137,7 @@
     top: 100px;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding: 100px;
     background-color: rgb(68, 65, 65);
   }
   .header_conteuner {
@@ -160,11 +161,15 @@
 .menu_button {
   background-color: rgba(127, 255, 212, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  color: #A18A68;
+  color: rgb(95, 94, 94);
   font-size: 20px;
   font-weight: 500;
   margin-right: 56px;
   margin-top: 46px;
+}
+.menu_button:hover {
+  color: #A18A68;
+  cursor: pointer;
 }
 .menu_title {
   font-family: "DM Sans", sans-serif;
@@ -188,6 +193,11 @@
   color: #A18A68;
   font-size: 20px;
   font-weight: 500;
+}
+.menu_img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px black;
 }
 
 .footer_conteiner {
@@ -226,7 +236,12 @@
   border: 1px solid black;
   margin-left: 948px;
   margin-right: 56px;
+  position: relative;
 }
 .footer_img {
   margin-left: 50px;
+}
+.footer_item:hover {
+  color: #A18A68;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

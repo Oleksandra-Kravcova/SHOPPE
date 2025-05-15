@@ -35,8 +35,13 @@
         border: 1px solid black;
         margin-left: 948px;
         margin-right: 56px;
+        position: relative;
     }
     &_img{
         margin-left: 50px;
+    }
+    &_item:hover{
+        color: #A18A68;
+        cursor: pointer;
     }
 }

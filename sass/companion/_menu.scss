@@ -13,11 +13,15 @@
     &_button{
         background-color: rgba(127, 255, 212, 0);
         border: 1px solid rgba(0, 0, 0, 0);
-        color: #A18A68;
+        color: rgb(95, 94, 94);
         font-size: 20px;
         font-weight: 500;
         margin-right: 56px;
         margin-top: 46px;
+    }
+    &_button:hover{
+        color: #A18A68;
+        cursor: pointer;
     }
     &_title{
         font-family: "DM Sans", sans-serif;
@@ -42,4 +46,9 @@
         font-size: 20px;
         font-weight: 500;
     }
+           &_img:hover {
+               cursor: pointer;
+               transform: scale(1.05);
+               box-shadow: 0 10px 20px rgba($color: #000000, $alpha: 1.0);
+           }
 }
