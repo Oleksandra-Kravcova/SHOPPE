@@ -34,6 +34,11 @@
         font-family: 700;
         font-size: 15px;
     }
+    &_button:hover{
+        background-color: #fffdfd00;
+        border-color: #afa28f;
+        color: #afa28f;
+    }
     &_fon_img{
         margin-top: 80px;
         display: flex;

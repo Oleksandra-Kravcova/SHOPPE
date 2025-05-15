@@ -35,6 +35,11 @@
   font-family: 700;
   font-size: 15px;
 }
+.hero_button:hover {
+  background-color: rgba(255, 253, 253, 0);
+  border-color: #afa28f;
+  color: #afa28f;
+}
 .hero_fon_img {
   margin-top: 80px;
   display: flex;
@@ -225,6 +230,7 @@
 .footer_icon {
   margin-left: 1048px;
   margin-top: 43px;
+  cursor: pointer;
 }
 .footer_div {
   margin-top: 256px;
